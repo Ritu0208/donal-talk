@@ -32,12 +32,12 @@ textarea{
 }
 #btn-translate{
     background-color: var(--primary-color);
-    padding: 1rem;
+    padding: 0.60rem 0.40rem;
     size: 2rem;
     margin: 1rem;
     width:12rem;
     font-size: 1rem;
-    height: 10vh;
+    height: 8vh;
 }
 
 #output{
@@ -78,4 +78,10 @@ footer{
     display: block;
     max-width: var(--width-break);
     margin: auto;
+ }
+
+ .img{
+    position: absolute;
+    top: 61%;
+    left:75% ;
  }
